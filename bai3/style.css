@@ -1,0 +1,22 @@
+/* body{
+    background-image: url(./img/OIP.jpg);
+}
+h2{
+    opacity: 50%; 
+    display: none;
+    visibility: hidden;
+    background-color: blue;
+} */
+
+img{
+    transition: 1.5s;
+}
+
+input:checked ~ img{
+    /* neu muon bien mat khoi dao dien */
+    /* display: none; */
+    /* neu muon bien mat khoi giao dien nhung van chiem vi tri */
+    /* visibility: hidden; */
+    /* lam mo di */
+    opacity: 0;
+}
