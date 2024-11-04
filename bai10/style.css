@@ -1,0 +1,38 @@
+/* p:hover{
+    color : red;
+    font-size: 30px;
+} */
+/* tac dung len select tor khi di chuot qua */
+/* #line2:hover{
+    color: aqua;
+} */
+/* tacs dung len selector khi nhan du chuot */
+/* .dichuot:active{
+    color: chartreuse;
+} */
+/* tac dung len selector khi chua click vao tru cap */
+/* .clickme:link
+{
+    color: blueviolet;
+} */
+/* tac dung len delector khi da click vao truy cap */
+/* .clickme:visited{
+    color: blue;
+} */
+
+.divelm:empty{
+    width: 200px;
+    height: 200px;
+    background-color: ble;
+}
+
+
+.divelm{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+h2:target{
+    color: blue;
+}

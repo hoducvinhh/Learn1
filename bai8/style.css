@@ -1,3 +1,19 @@
-p, .demo, #title {
+/* p, .demo, #title {
     color: rebeccapurple;
+} */
+
+div p{
+    color: blue;
+}
+.loichuc p{
+    font-size: 30px;
+}
+h1+h2{
+    color: chartreuse;
+}
+.demo.demo2 + h3,p{
+    color: blue;
+}
+p~ul{
+    color: blueviolet;
 }
