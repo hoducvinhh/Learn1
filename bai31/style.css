@@ -1,0 +1,7 @@
+h1{
+    width: 200px;
+    background-color: pink;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
