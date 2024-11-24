@@ -1,0 +1,26 @@
+.box{
+    counter-reset: section;
+    padding-left: 30px;
+    background-color: aqua;
+}
+
+h2{
+    /* tang bien dem len 1 */
+    counter-increment: section;
+    /* tao bien dem va reset dien dem h3 ve o */
+    counter-reset: sub-section ;
+}
+
+h2::before{
+    content: "Phan "counter(section)": ";
+}
+
+h3{
+    counter-increment: sub-section;
+    padding-left: 10px;
+}
+
+h3::before{
+    content: counter(section)"."counter(sub-section)" ";
+    color: rebeccapurple;
+}
